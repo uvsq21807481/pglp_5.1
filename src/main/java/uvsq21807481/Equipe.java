@@ -1,5 +1,5 @@
 package uvsq21807481;
 
-public abstract class Equipe {
+public abstract class Equipe{
 
 }

@@ -1,10 +1,11 @@
 package uvsq21807481;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Personnel extends Equipe{
+public final class Personnel extends Equipe implements Serializable{
 
     private final String lastName;
     private final String firstName;
