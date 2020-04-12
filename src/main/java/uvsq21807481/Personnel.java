@@ -50,6 +50,14 @@ public final class Personnel extends Equipe implements Serializable{
         return lastName;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
     public List<String> getPhone() {
         return phone;
     }
